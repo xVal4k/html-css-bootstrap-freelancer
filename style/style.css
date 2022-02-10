@@ -19,7 +19,7 @@
 
 .sec1_cont {
     background-color: #2DC1A3;
-    padding: 2rem;
+    padding: 2rem 0;
 }
 
 .user_img img {
@@ -44,8 +44,20 @@
 /* Section 2  */
 
 .sec2_cont {
-    height: 800px;
+    padding: 3rem 0;    
     background-color: white;
+}
+
+.hr_bl {
+    height: 4px;
+    background: black;
+}
+
+.bord_rad {
+    padding: 2rem 0;
+    background: red;
+    text-align: center;
+    border-radius: 10px;
 }
 
 
