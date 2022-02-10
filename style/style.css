@@ -1,16 +1,43 @@
 /* Header  */
 
 .nav_cont {
-    height: 5rem;
     background-color: #2C3E50;
+}
+
+.nav_row {
+    height: 5rem;
+    color: white;
+}
+
+.nav_row {
+    font-size: 24px;
+    font-weight: bold;
 }
 
 
 /* Section 1 */
 
 .sec1_cont {
-    height: 700px;
     background-color: #2DC1A3;
+    padding: 2rem;
+}
+
+.user_img img {
+    border-radius: 50%;
+}
+
+.sec1_title {
+    text-align: center;
+}
+
+.hr {
+    height: 4px;
+    background: white;
+}
+
+.sec1_cont [class*="col-"] {
+    color: white;
+    text-align: center;
 }
 
 
