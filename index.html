@@ -11,6 +11,9 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
 
+    <!-- link font-awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+
     <!-- link css  -->
     <link rel="stylesheet" href="style/style.css">
 
@@ -21,32 +24,46 @@
     <header class="fixed-top py-4">
 
         <div class="container nav_cont">
+
             <div class="row nav_row text-uppercase">
-                <div class="col-sm-10">start bootstrap</div>
-                <div class="col-sm-2">menu</div>
+
+                <div class="col-6">
+                    <a href="#!">start bootstrap</a>
+                </div>
+
+                <div class="col-6 text-end">
+                    <a href="#!" class="ham_menu"><i class="fa-solid fa-bars"></i></a>
+                </div>
+
             </div>
+
         </div>
 
     </header>
 
     <main>
 
-        <section class="sec1 mt_6 py-5">
+        <section class="sec1 mt_6 py_6">
 
-            <div class="container sec1_cont">
+            <div class="container">
 
-                <div class="row row-cols-1 text-center">
+                <div class="row g-3 row-cols-1 text-center">
 
                     <div class="col">
-                        <img src="https://picsum.photos/200/200" alt="img">
+                        <img src="img/img/avatar.svg" alt="img">
                     </div>
-                    <div class="col">
-                        <h1>start bootstrap</h1>
+
+                    <div class="col text-uppercase">
+                        <h1 class="title">start bootstrap</h1>
                     </div>
+
                     <div class="col">
-                        <p class="star"></p>
+                        <div class="hr"></div>
+                        <i class="fa-solid fa-star"></i>
+                        <div class="hr"></div>
                     </div>
-                    <div class="col">
+
+                    <div class="col text-uppercase">
                         GRAPHIC ARTIST - WEB DESIGNER - ILLUSTRATOR
                     </div>
 
@@ -56,42 +73,63 @@
 
         </section>
 
-        <section class="sec2 py-5">
+        <section class="sec2 py_6">
 
             <div class="container">
-                <div class="row text-center">
+                <div class="row mb-4 gy-4 text-center">
                     <div class="col-12">
-                        <h2>LOREM</h2>
+                        <h1 class="text-uppercase">portfolio</h1>
                     </div>
                     <div class="col-12">
-                        <p class="star"></p>
+                        <div class="hr"></div>
+                        <i class="fa-solid fa-star"></i>
+                        <div class="hr"></div>
                     </div>
                 </div>
 
-                <div class="row g-4 row-cols-1 row-cols-md-2 row-cols-lg-3 text-center">
+                <div class="row g-4 row-cols-1 row-cols-md-2 row-cols-lg-3 text-center img-row">
 
                     <div class="col bord_rad">
-                        <img src="https://picsum.photos/200/200" alt="img">
+                        <a href="#!">
+                            <img src="img/img/cabin.png" alt="img">
+                            <i class="fa-solid fa-plus"></i>
+                        </a>
                     </div>
 
                     <div class="col bord_rad">
-                        <img src="https://picsum.photos/200/200" alt="img">
+                        <a href="#!">
+                            <img src="img/img/cake.png" alt="img">
+                            <i class="fa-solid fa-plus"></i>
+                        </a>
                     </div>
 
                     <div class="col bord_rad">
-                        <img src="https://picsum.photos/200/200" alt="img">
+                        <a href="#!">
+                            <img src="img/img/circus.png" alt="img">
+                            <i class="fa-solid fa-plus"></i>
+                        </a>
                     </div>
 
                     <div class="col bord_rad">
-                        <img src="https://picsum.photos/200/200" alt="img">
+                        <a href="#!">
+                            <img src="img/img/game.png" alt="img">
+                            <i class="fa-solid fa-plus"></i>
+                        </a>
                     </div>
 
                     <div class="col bord_rad">
-                        <img src="https://picsum.photos/200/200" alt="img">
+                            <a href="#!">
+                                <img src="img/img/safe.png" alt="img">
+                                <i class="fa-solid fa-plus"></i>
+                            </a>
+                        </div>
                     </div>
 
                     <div class="col bord_rad">
-                        <img src="https://picsum.photos/200/200" alt="img">
+                        <a href="#!">
+                            <img src="img/img/submarine.png" alt="img">
+                            <i class="fa-solid fa-plus"></i>
+                        </a>
                     </div>
 
                 </div>
@@ -100,42 +138,46 @@
 
         </section>
 
-        <section class="sec3 py-4">
+        <section class="sec3 py-5">
 
             <div class="container">
 
-                <div class="row text-center row-cols-1">
+                <div class="row mb-3 gy-3 text-center row-cols-1">
 
                     <div class="col">
-                        <h2>LOREM</h2>
+                        <h1 class="text-uppercase">about</h1>
                     </div>
                     <div class="col">
-                        <p class="star"></p>
-                    </div>
-
-                </div>
-
-                <div class="row gy-4 text-center row-cols-1 row-cols-md-2 row-cols-lg-2">
-
-                    <div class="col">
-                        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Facilis magnam provident quae delectus
-                        ipsa optio ut voluptates est nesciunt deserunt vel at rerum, enim neque aperiam aliquid,
-                        doloremque,
-                        maxime ducimus.
-                    </div>
-
-                    <div class="col">
-                        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Facilis magnam provident quae delectus
-                        ipsa optio ut voluptates est nesciunt deserunt vel at rerum, enim neque aperiam aliquid,
-                        doloremque,
-                        maxime ducimus.
+                        <div class="hr"></div>
+                        <i class="fa-solid fa-star"></i>
+                        <div class="hr"></div>
                     </div>
 
                 </div>
 
-                <div class="row mt-4 text-center">
-                    <div class="col-12 btn">
-                        <button type="button" class="btn btn-primary">Primary</button>
+                <div class="cont_content">
+                    <div class="row gy-4 row-cols-1 row-cols-md-2 row-cols-lg-2">
+
+                        <div class="col">
+                            Freelancer is a free bootstrap theme created by Start Bootstrap. The download includes the
+                            complete source files including HTML, CSS, and JavaScript as well as optional LESS
+                            stylesheets for easy customization.
+                        </div>
+
+                        <div class="col">
+                            Whether you're a student looking to showcase your work, a professional looking to attract
+                            clients, or a graphic artist looking to share your projects, this template is the perfect
+                            starting point!
+                        </div>
+
+                    </div>
+                </div>
+
+                <div class="row mt-5 text-center">
+                    <div class="col-12">
+                        <a class="green_but" href="#!">
+                            <i class="fa-solid fa-download"></i> Download
+                        </a>
                     </div>
                 </div>
 
@@ -143,77 +185,95 @@
 
         </section>
 
-        <section class="sec4 py-4">
+        <section class="sec4 py-5">
 
             <div class="container">
 
-                <div class="row text-center row-cols-1">
+                <div class="cont_content">
 
-                    <div class="col text-uppercase">
-                        <h1>contact me</h1>
+                    <div class="row row-cols-1">
+
+                        <div class="col text-uppercase">
+                            <h1 class="text-center">contact me</h1>
+                        </div>
+
+                        <div class="col text-center">
+                            <div class="hr"></div>
+                            <i class="fa-solid fa-star"></i>
+                            <div class="hr"></div>
+                        </div>
+
+                        <div class="col fw-bolder">
+                            Name
+                            <hr>
+                        </div>
+
+                        <div class="col fw-bolder">
+                            Email Address
+                            <hr>
+                        </div>
+
+                        <div class="col fw-bolder">
+                            Phone Number
+                            <hr>
+                        </div>
+
+                        <div class="col fw-bolder message">
+                            Message
+                            <hr>
+                        </div>
+
                     </div>
 
-                    <div class="col">
-                        <p class="star"></p>
-                    </div>
-
-                    <div class="col">
-                        Name
-                        <hr>
-                    </div>
-
-                    <div class="col">
-                        Email Address
-                        <hr>
-                    </div>
-
-                    <div class="col">
-                        Phone Number
-                        <hr>
-                    </div>
-
-                    <div class="col">
-                        Message
-                        <hr>
-                    </div>
-
-                </div>
-
-                <div class="row">
-                    <div class="col-12 btn">
-                        <button type="button" class="btn btn-primary">Primary</button>
+                    <div class="row">
+                        <div class="col-12">
+                            <a class="green_but" href="#!">Send</a>
+                        </div>
                     </div>
                 </div>
 
             </div>
 
-        </section>   
+            </div>
+
+        </section>
 
     </main>
 
     <footer>
 
-        <div class="footer_info py-5">
+        <div class="footer_info py-4">
 
-            <div class="container">
+            <div class="container footer_info py-5">
 
-                <div class="row row-cols-1 row-cols-sm-3 row-cols-lg-3 text-center">
+                <div class="row g-4 row-cols-1 row-cols-md-3 row-cols-lg-3 text-center">
 
                     <div class="col">
-                        <h2 class="text-uppercase">location</h2>
-                        <p>lorem ipsun ducit mucit bellum bellic</p>
+                        <h3 class="text-uppercase">location</h3>
+                        <p>2215 John Daniel Drive Clark, MO 54243</p>
                     </div>
 
                     <div class="col">
-                        <h2 class="text-uppercase">location</h2>
-                        <p>lorem ipsun ducit mucit bellum bellic</p>
+                        <div class="row row-cols-1">
+                            <div class="col">
+                                <h3 class="text-uppercase">around the web</h3>
+
+                            </div>
+                            <div class="col social_logos">
+                                <a class="facebook" href="#!"><i class="fa-brands fa-facebook-f"></i></a>
+                                <a class="google" href="#!"><i class="fa-brands fa-google-plus-g"></i></a>
+                                <a class="twitter" href="#!"><i class="fa-brands fa-twitter"></i></a>
+                                <a class="linkedin" href="#!"><i class="fa-brands fa-linkedin-in"></i></a>
+                            </div>
+                        </div>
                     </div>
 
                     <div class="col">
-                        <h2 class="text-uppercase">location</h2>
-                        <p>lorem ipsun ducit mucit bellum bellic</p>
+                        <h3 class="text-uppercase">about freelancer</h3>
+                        <p>Freelance is a free to use, open source Bootstrap theme created by <a class="foot_text_link"
+                                href="#!">Start Bootstrap</a></p>
                     </div>
-                    
+
                 </div>
 
             </div>
@@ -227,9 +287,9 @@
                 <div class="row text-center">
 
                     <div class="col-12">
-                        <p>lorem ipsun ducit mucit bellum bellic</p>
-                    </div>                    
-                    
+                        <p>Copyright <i class="fa-regular fa-copyright"></i> Your Website 2019</p>
+                    </div>
+
                 </div>
 
             </div>
