@@ -1,43 +1,23 @@
 /* Header  */
 
-.nav_cont {
+header {
     background-color: #2C3E50;
-}
-
-.nav_row {
-    height: 5rem;
-    color: white;
 }
 
 .nav_row {
     font-size: 24px;
     font-weight: bold;
+    color: white;
 }
 
+.mt_6 {
+    margin-top: 5rem;
+}
 
 /* Section 1 */
 
-.sec1_cont {
+.sec1 {
     background-color: #2DC1A3;
-    padding: 2rem 0;
-}
-
-.user_img img {
-    border-radius: 50%;
-}
-
-.sec1_title {
-    text-align: center;
-}
-
-.hr {
-    height: 4px;
-    background: white;
-}
-
-.sec1_cont [class*="col-"] {
-    color: white;
-    text-align: center;
 }
 
 
@@ -48,39 +28,27 @@
     background-color: white;
 }
 
-.hr_bl {
-    height: 4px;
-    background: black;
-}
-
 .bord_rad {
     padding: 2rem 0;
     background: red;
-    text-align: center;
     border-radius: 10px;
 }
 
 
 /* Section 3 */
 
-.sec3_cont {
-    height: 500px;
+.sec3 {
     background-color: #2DC1A3;
 }
 
 
 /* Section 4 */
 
-.sec4_cont {
-    height: 600px;
-    background-color: white;
-}
 
 
 /* Footer Info  */
 
 .footer_info {
-    height: 300px;
     background-color: #3A546D;
 }
 
@@ -88,6 +56,5 @@
 /* Footer Copyright  */
 
 .footer_copyright {
-    height: 7rem;
     background-color: #2C3E50;
 }
