@@ -1,0 +1,279 @@
+html {
+    font-size: 20px;
+}
+
+
+/* General style */
+
+.mt_6 {
+    margin-top: 4rem;
+}
+
+.py_6 {
+    padding-top: 5rem;
+    padding-bottom: 5rem;
+}
+
+.fa-star {
+    font-size: 32px;
+    vertical-align: middle;
+    margin: 0 .2rem;
+}
+
+.cont_content {
+    width: 80%;
+    margin: 0 auto;
+}
+
+.green_but {
+    text-decoration: none;
+    background: #2DC1A3;
+    color: white;
+    border-radius: 7px;
+}
+
+.green_but:focus {
+    background-color: #2DC1A3;
+    border-color: #2DC1A3;
+    box-shadow: none;
+}
+  
+.green_but:active:focus {
+    background-color: #2DC1A3;
+    border-color: #2DC1A3;
+    box-shadow: none;
+}
+
+footer {
+    color: white;
+}
+
+/* Header  */
+
+header {
+    background-color: #2C3E50;
+}
+
+.nav_row .col-7:first-child {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+header a {
+    text-decoration: none;
+    color: white;
+}
+
+header .nav_list {
+    flex-wrap: nowrap;
+}
+
+header .nav-link {
+    color: white;
+    padding: .5rem;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+header a:hover,
+header .nav-link:hover {
+    color: #2DC1A3;
+}
+
+
+
+
+/* Section 1 */
+
+.sec1 {
+    background-color: #2DC1A3;
+    color: white;
+}
+
+.sec1 .title {
+    font-size: 50px;
+}
+
+.hr {
+    display: inline-block;
+    width: 75px;
+    height: 4px;
+    background: white;
+    vertical-align: middle;
+    border-radius: 10px;
+}
+
+.sec1 .row:last-child {
+    font-size: 22px;
+}
+
+.sec1 img {
+    border-radius: 50%;
+    width: 250px;
+}
+
+
+/* Section 2  */
+
+.sec2 .hr,
+.sec4 .hr {
+    background: black;
+}
+
+.sec2 img {
+    width: 100%;
+    border-radius: 15px;
+}
+
+.sec2 .bord_rad {
+    position: relative;
+}
+
+.sec2 .bord_rad .fa-plus {
+    position: absolute;
+    font-size: 100px;
+    color: white;    
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    display: none;
+}
+
+.sec2 .bord_rad .overlay {
+    width: calc(100% - 1.5rem);
+    height: 100%;
+    border-radius: 15px;
+    background: #1f85717e;
+    position: absolute;
+    top: 0;
+    left: calc(1.5rem / 2); 
+    display: none;
+}
+
+.sec2 .bord_rad:hover .fa-plus {
+    display: block;
+}
+
+.sec2 .bord_rad:hover .overlay {
+    display: block;
+}
+
+
+/* Section 3 */
+
+.sec3 {
+    background-color: #2DC1A3;
+    color: white;
+}
+
+.sec3 .hr {
+    width: 50px;
+}
+
+.sec3 .fa-star {
+    font-size: 26px;
+}
+
+.sec3 .green_but:hover {
+    color: black;
+    background: white;
+}
+
+.sec3 .green_but {
+    border-color: white;
+}
+
+.green_but:focus {
+    background-color: #2DC1A3;
+    border-color: white;
+    box-shadow: none;
+}
+  
+.green_but:active:focus {
+    background-color: #2DC1A3;
+    border-color: white;
+    box-shadow: none;
+}
+
+
+/* Section 4 */
+
+.sec4 .col input,
+.sec4 .col textarea {
+    border: 0;
+    border-bottom: 1px solid lightgray;
+    border-radius: 0;
+    padding: 0 0 1rem 0;
+}
+
+.sec4 .col input:focus,
+.sec4 .col textarea:focus {
+    border-bottom:1px solid #3A546D;
+}
+
+.sec4 .col .form-control:focus {
+    box-shadow: none;
+}
+
+.sec4 .green_but {
+    border-color: #2DC1A3;
+}
+
+.sec4 .green_but:hover {
+    color: white;
+    background: #22967f;
+}
+
+
+/* Footer Info  */
+
+footer .foot_text_link {
+    color: #2DC1A3;
+    text-decoration: none;
+}
+
+footer .foot_text_link:hover {
+    text-decoration: underline;
+    color: white;
+}
+
+.footer_info {
+    background-color: #3A546D;
+}
+
+.footer_info .social_logos a{
+    display: inline-block;
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+    border-radius: 50%;
+    border: 1px solid white;
+}
+
+.footer_info .social_logos .facebook {
+    padding: .5rem 1.05rem;
+}
+
+.footer_info .social_logos .google {
+    padding: .5rem .65rem;
+}
+
+.footer_info .social_logos .twitter {
+    padding: .5rem .8rem;
+}   
+
+.footer_info .social_logos .linkedin {
+    padding: .5rem .9rem;
+}    
+
+.footer_info .social_logos a:hover {
+    background: white;
+    color: black;
+}
+
+
+/* Footer Copyright  */
+
+.footer_copyright {
+    background-color: #2C3E50;
+}
